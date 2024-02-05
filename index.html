@@ -27,7 +27,7 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
+  <body d-flex flex-column min-vh-100">
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand mx-auto" href="#">Marko Milicevic</a>
@@ -64,7 +64,7 @@
         height: 100vh;
       "
     >
-      <div class="container" style="margin-top: 50vh">
+      <div class="container" style="margin-top: 30vh">
         <h1 class="display-4">Dobrodošao na Moj Lični Sajt</h1>
         <p class="lead">Kratak opis ili pozdrav ispod naslova.</p>
       </div>
@@ -78,9 +78,10 @@
         </section>
       </div>
     </div>
+
     <section
       id="workExperience"
-      class="row mx-3 section vh-10 d-flex align-items-center border"
+      class="card row mx-3 section vh-10 d-flex align-items-center border"
       style="height: 10em"
     >
       <h2 style="font-size: 26px">Work Experience</h2>
@@ -89,17 +90,19 @@
 
     <div
       style="height: 30em"
-      class="col-12 col-md-12 col-lg-12 mx-auto text-center border p-3"
+      class="d-flex flex-column min-vh-100 p-3"
     >
       <section id="projekat1">
         <div class="row mx-5">
           <div class="col-md-6 mb-3">
-            <h4 class="text-md" style="font-size: 18px">
+            <h4 class="mb-0 mt-2 order-md-last" style="font-size: 18px">
               Web design at “Kobel doo” Belgrade, Serbia
             </h4>
           </div>
           <div class="col-md-6 text-right mb-3">
-            <h4 class="text-sm" style="font-size: 16px">May 2022 – present</h4>
+            <h4 class="mb-0 mt-2 order-md-last" style="font-size: 16px">
+              May 2022 – present
+            </h4>
           </div>
           <p>
             Immersed in the enchanting world of the internet, tracking and
@@ -117,18 +120,18 @@
 
     <div
       style="height: 30em"
-      class="col-12 col-md-12 col-lg-12 mx-auto text-center border p-3"
+      class="card col-12 col-md-12 col-lg-12 mx-auto text-center border p-3"
     >
       <section id="projekat2">
         <div class="row mx-5">
           <div class="col-md-6 mb-3">
-            <h4 class="text-md" style="font-size: 18px">
+            <h4 class="mb-0 mt-2 order-md-last" style="font-size: 18px">
               Leader of tracking team at „Summa Logistics“ – Belgrade , Serbia
               <br />(head office - Burlington, IA 52601)
             </h4>
           </div>
           <div class="col-md-6 text-right mb-3">
-            <h4 class="text-sm" style="font-size: 16px">
+            <h4 class="mb-0 mt-2 order-md-last" style="font-size: 16px">
               September 2021 – May 2022
             </h4>
           </div>
@@ -147,20 +150,21 @@
         </div>
       </section>
     </div>
+
     <div
       style="height: 30em"
-      class="col-12 col-md-12 col-lg-12 mx-auto text-center border p-3"
+      class="card col-12 col-md-12 col-lg-12 mx-auto text-center border p-3"
     >
       <section id="projekat3">
         <div class="row mx-5">
           <div class="col-md-6 text-right mb-3">
-            <h4 class="text-md" style="font-size: 18px">
+            <h4 class="mb-0" style="font-size: 18px">
               Night shift tracking at “LG Express Group” - Belgrade, Serbia
               <br />(head office – Alsip, Illinois, USA)
             </h4>
           </div>
           <div class="col-md-6 text-right mb-3">
-            <h4 class="text-sm" style="font-size: 16px">
+            <h4 class="mb-0 mt-2 order-md-last" style="font-size: 16px">
               September 2018 – September 2021
             </h4>
           </div>
@@ -180,8 +184,11 @@
       </section>
     </div>
 
-    <footer>
-      <p class="text-center">&copy; 2024 Milicevic Marko</p>
+    <footer
+      class="card bg-dark text-light text-center py-3"
+      style="flex-grow: 1"
+    >
+      <p>&copy; 2024 Milicevic Marko</p>
     </footer>
   </body>
 </html>
