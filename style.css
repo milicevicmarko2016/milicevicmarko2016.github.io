@@ -1,0 +1,43 @@
+.moj-header {
+    background-color: #e41313; /* Crna pozadina */
+    color: #fff; /* Bela boja teksta */
+    padding: 10px; /* Dodaj padding od 10 piksela na vrhu i dnu */
+    text-align: center; /* Centriraj tekst unutar header-a */
+}
+.h1 {
+    color: #333; /* Boja teksta */
+    font-size: 24px; /* Veličina fonta */
+    font-weight: bold; /* Debljina fonta */
+    text-align: center; /* Centriranje teksta */
+    margin-top: 20px; /*Margina na vrhu */
+    margin-bottom: 20px; /* Margina na dnu */
+}
+.h2 {
+    color: #464545; /* Boja teksta */
+    font-size: 20px; /* Veličina fonta */
+    font-weight: normal; /* Debljina fonta */
+    text-align: center; /* Centriranje teksta */
+    align-items: center;
+    /*margin-top: 20px; /* Margina na vrhu */
+    /*margin-bottom: 20px; /* Margina na dnu */
+}
+.card-first{
+    background: transparent;
+    justify-content: center; /* Centriraj horizontalno */
+    align-items: center; /* Centriraj vertikalno */
+    
+}
+.footer{
+    position: fixed; /* Fiksiraj poziciju footera */
+      left: 0; /* Postavi na levoj ivici */
+      bottom: 0; /* Postavi na dnu stranice */
+      width: 100%; /* Puni širinu ekrana */
+      background-color: #333; /* Boja pozadine */
+      color: #ffffff; /* Boja teksta */
+      font-size: 14px;
+      font-family: sans-serif;
+      padding: 10px; /* Dodaj padding */
+      display: flex;
+      justify-content: center; /* Centriraj horizontalno */
+    align-items: center; /* Centriraj vertikalno */
+}
