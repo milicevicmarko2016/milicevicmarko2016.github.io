@@ -41,3 +41,9 @@
   justify-content: center; /* Centriraj horizontalno */
   align-items: center; /* Centriraj vertikalno */
 }
+
+.masthead {
+  background-size: cover;
+  min-height: 60vh;
+  background-position: center;
+}
