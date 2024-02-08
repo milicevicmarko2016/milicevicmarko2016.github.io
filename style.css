@@ -5,8 +5,9 @@
   text-align: center; /* Centriraj tekst unutar header-a */
 }
 .h1 {
-  color: #333; /* Boja teksta */
-  font-size: 30px; /* Veličina fonta */
+  color: white; /* Boja teksta */
+  text-shadow: black 0 0 8px;
+  font-size: 50px; /* Veličina fonta */
   font-weight: bold; /* Debljina fonta */
   text-align: center; /* Centriranje teksta */
   margin-top: 20px; /*Margina na vrhu */
@@ -28,7 +29,7 @@
   align-items: center; /* Centriraj vertikalno */
 }
 .footer {
-  position: fixed; /* Fiksiraj poziciju footera */
+  position: relative; /* Fiksiraj poziciju footera */
   left: 0; /* Postavi na levoj ivici */
   bottom: 0; /* Postavi na dnu stranice */
   width: 100%; /* Puni širinu ekrana */
@@ -46,4 +47,5 @@
   background-size: cover;
   min-height: 60vh;
   background-position: center;
+  background-repeat: no-repeat;
 }
